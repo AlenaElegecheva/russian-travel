@@ -1,0 +1,24 @@
+.jorney__title {
+  margin: 0;
+  max-width: 560px;
+  text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+  .jorney__title {
+    font-family: Inter-Black;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 109%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .jorney__title {
+    font-family: Inter-Black;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 109%;
+    padding: 0 16px;
+  }
+}
