@@ -1,8 +1,8 @@
 .jorney__subtitle {
-  margin: 32px auto 0 auto;
+  margin: 32px 0 0 0;
   max-width: 360px;
   text-align: center;
-  font-family: Inter-Regular;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 425px) {
   .jorney__subtitle {
-    font-family: Inter-Regular;
+    font-family: Inter, Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 114%;

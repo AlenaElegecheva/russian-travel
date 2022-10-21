@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 550px) {
   .jorney__title {
-    font-family: Inter-Black;
+    font-family: Inter, Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 40px;
     line-height: 109%;
@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 425px) {
   .jorney__title {
-    font-family: Inter-Black;
+    font-family: Inter, Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 32px;
     line-height: 109%;
