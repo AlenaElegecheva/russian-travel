@@ -23,14 +23,13 @@
 @media screen and (max-width: 768px) {
   .places {
     margin-top: 88px;
-    padding: 0 24px;
     row-gap: 73px;
   }
 }
 
 @media screen and (max-width: 550px) {
   .places {
-    margin-top: 58px;
+    margin-top: 58px 0 0 0;
     padding: 0;
     row-gap: 50px;
   }
@@ -39,6 +38,5 @@
 @media screen and (max-width: 330px) {
   .places {
     width: 320px;
-    margin: 58px 0 0 0;
   }
 }

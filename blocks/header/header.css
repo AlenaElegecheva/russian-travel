@@ -1,4 +1,5 @@
 .header {
+  box-sizing: border-box;
   max-width: 1184px;
   margin: 28px auto 0 auto;
   padding: 0 48px;
@@ -8,7 +9,7 @@
 
 @media screen and (max-width: 768px) {
   .header {
-    padding: 0 28px;
+    padding: 0 24px;
   }
 }
 

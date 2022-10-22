@@ -3,25 +3,22 @@
   padding: 0;
   height: 100%;
   width: 100%;
-  background: url(../../images/cover__background.jpg) no-repeat center;
-  background-size: cover;
-  position: relative;
 }
 
-.jorney::before {
-  content: " ";
-  background: #2A2C2F;
-  opacity: 0.3;
-  position: absolute;
-  display: block;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
+@media screen and (max-width: 768px) {
+  .jorney {
+    margin-top: 90px;
+  }
 }
 
-.jorney:hover::before {
-  opacity: .8;
-  transition: 1s;
+@media screen and (max-width: 550px) {
+  .jorney {
+    margin-top: 78px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .jorney {
+    margin: 66px 0 0 0;
+  }
 }

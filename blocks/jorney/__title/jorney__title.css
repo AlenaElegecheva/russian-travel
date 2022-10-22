@@ -2,6 +2,8 @@
   margin: 0;
   max-width: 560px;
   text-align: center;
+  position: relative;
+  z-index: 3;
 }
 
 @media screen and (max-width: 550px) {
@@ -15,10 +17,7 @@
 
 @media screen and (max-width: 425px) {
   .jorney__title {
-    font-family: Inter, Arial, Helvetica, sans-serif;
-    font-weight: 900;
     font-size: 32px;
-    line-height: 109%;
     padding: 0 16px;
   }
 }
