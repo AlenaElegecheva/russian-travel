@@ -6,6 +6,13 @@
   width: 100%;
 }
 
+
+@media screen and (max-width: 1024px) {
+  .jorney {
+    padding: 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .jorney {
     margin-top: 90px;
