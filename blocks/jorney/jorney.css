@@ -1,6 +1,7 @@
 .jorney {
-  margin: 93px auto 0 auto;
-  padding: 0;
+  box-sizing: border-box;
+  margin: 93px 0 0 0;
+  padding: 0 48px;
   height: 100%;
   width: 100%;
 }
